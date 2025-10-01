@@ -1,0 +1,23 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    background-color: #f4f4f9;
+}
+
+#pca-plot {
+    width: 90%;
+    max-width: 800px;
+    height: 500px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 8px;
+}
+
+#description {
+    max-width: 800px;
+    text-align: center;
+}
